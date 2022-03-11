@@ -180,6 +180,59 @@ li {
   hero styling starts here
 =================================*/
 
+.hero-section{ 
+  background: url("../image/bg.jpg") no-repeat fixed center; 
+  background-size: cover;
+}
+
+.hero-section .wrapper{
+  padding: 255px 0 246px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-wrapper{ width: 55%; }
+
+.hero-title{
+  margin-bottom: 30px;
+  font-size: 82px;
+  font-weight: 1000;
+}
+
+.hero-info{
+  margin: 15px 0;
+  color: #849aa2;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.home-btn{
+  padding: 20px 40px;
+  border: 1px solid #849aa2;
+  border-radius: 5px;
+  margin: 35px 0;
+  color: inherit;
+  font-size: 26px;
+  font-weight:700;
+  text-transform: capitalize;
+}
+
+.home-btn:hover{
+  border: none;
+  background-color: #020b13;
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+/*=================================
+  hero styling ends here
+=================================*/
+
 
 /*=================================
   main styling ends here
