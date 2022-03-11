@@ -233,6 +233,76 @@ li {
   hero styling ends here
 =================================*/
 
+/*=================================
+  live event styling starts here
+=================================*/
+
+.live-events{
+  padding: 130px 0 123px;
+  background-image: linear-gradient(to right, #0c1f2e, #2d3c54);
+  text-align: center;
+}
+
+.events-section-title{
+  font-size: 50px;
+  font-weight: 1000;
+  color: #fff;
+}
+
+.events-section-info{
+  margin: 40px 0 90px;
+  font-size: 25px;
+  color: #849aa2;
+}
+
+.events-list{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.event{
+  margin-right: 65px;
+  border-radius: 10px;
+  flex-grow: 1;
+  flex-basis: 0;
+  position: relative;
+  background-color: #31414b;
+  color: #849aa2;
+}
+
+.event a:hover{
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in;
+}
+
+img{ border-radius: 10px 10px 0 0 ; }
+
+.live-events .event:last-child{ margin-right: 0; }
+
+.event a::before{
+  content: "\f04b";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #849aa2;
+  font-size: 70px;
+  opacity: 0.7;
+}
+
+.event-title{
+  padding: 50px 40px;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: left;
+}
+
+/*=================================
+  live event styling ends here
+=================================*/
 
 /*=================================
   main styling ends here
