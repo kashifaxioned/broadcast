@@ -627,6 +627,46 @@ img{ border-radius: 10px 10px 0 0 ; }
 
 /*media query for 768px ends here*/
 
+/*media query for 425px starts here*/
+
+@media only screen and (max-width : 425px){
+
+  .logo, .hamburger{font-size: 14px;}
+
+  .logo .bold{font-size: 18px;}
+
+  .hero-section .wrapper{padding: 100px 0;}
+
+  .hero-wrapper{width: 100%;}
+
+  .hero-title{font-size: 40px;}
+
+  .hero-info, .home-btn{font-size: 18px;}
+
+  .live-events, .artist-section, .trending-events{padding: 40px 0;}
+
+  .events-section-title{font-size: 30px;}
+
+  .events-section-info{font-size: 18px;}
+
+  .trending-events .event{width: 100%;}
+
+  .trending-events .event a::before,
+  .live-events .event a::before{top: 30%;}
+
+  .artist-name{flex: 1 1 auto;}
+
+  .footer-section{padding: 60px 0;}
+
+  .footer-list li{font-size: 18px;}
+
+  .link::before{font-size: 25px;}
+
+  .copyright{font-size: 14px;}
+}
+
+/*media query for 425px ends here*/
+
 /*media query ends here*/
 
 
