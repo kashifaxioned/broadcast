@@ -305,6 +305,77 @@ img{ border-radius: 10px 10px 0 0 ; }
 =================================*/
 
 /*=================================
+  artist section styling starts here
+=================================*/
+
+.artist-section{
+  padding: 130px 0;
+  background-image: linear-gradient(to right,#0a1821, #283044);
+  
+}
+.artists-events{
+  display: flex;
+  justify-content: space-between;
+}
+
+.artists{
+  flex: 1 1 auto;
+  margin-right: 51px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.artist-name{
+  min-width: 318px;
+  padding: 17px 106px 19px 21px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 11px;
+  background-color: #293740;
+  color: #849aa2;
+  font-size: 18px;
+  text-align: left;
+}
+
+.artist-name:hover, .selected {
+  background-color: #aa15cc;
+  color: #fff;
+  cursor: pointer;
+}
+
+ .artists-events .events-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.artists-events .event{
+  border-radius: 10px;
+  margin: 0 43px 43px 0;
+  position: relative;
+  color: #849aa2;
+  flex: inherit;
+}
+
+.artists-events .event:nth-child(3),
+.artists-events .event:nth-child(6){ margin-right: 0; }
+
+
+.artists-events img{
+  max-width: 395px;
+  border-radius: 5px;
+}
+
+.artists-events .event a::before{
+  right: 40%;
+  left: inherit;
+}
+
+/*=================================
+  artist section styling ends here
+=================================*/
+
+/*=================================
   main styling ends here
 =================================*/
 
