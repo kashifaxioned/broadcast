@@ -84,7 +84,7 @@ sub { bottom: -.25em; }
 /*for all*/
 body {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 
 a { 
@@ -97,20 +97,19 @@ li {
   list-style-type: none;
 }
 
+.uppercase{ text-transform: uppercase;}
+
+.bold{font-weight: 1000;}
+
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  max-width: 1657px;
+  width: 90%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
-
-
-
-
-
 
 /*=================================
   Header styling ends here
@@ -120,11 +119,9 @@ li {
   main styling starts here
 =================================*/
 
-
-
-
-
-
+/*=================================
+  hero styling starts here
+=================================*/
 
 
 /*=================================
@@ -133,22 +130,14 @@ li {
 
 /*=================================
   footer styling starts here
-=================================*/ 
+================================*/ 
 
-
-
-
-
-
-
- /*=================================
+/*=================================
   footer styling ends here
 =================================*/ 
 
 /*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+
+/*media query ends here*/
 
 
-
-}  
