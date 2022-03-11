@@ -502,6 +502,40 @@ img{ border-radius: 10px 10px 0 0 ; }
 
 /*media query for 1440px ends here*/
 
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px){
+
+  .hero-wrapper{width: 80%;}
+
+  .live-events .event h4{padding: 25px;}
+
+  .event-title{font-size: 18px;}
+
+  .artists-events{
+    flex-flow: column wrap;
+  }
+
+  .artist-name{
+    min-width: 260px;
+    font-size: 16px;
+  }
+  
+  .artists{
+    margin-right: 0;
+    margin-bottom: 20px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .artists-events .event{margin-right: 0;}
+
+  .artists-events .event:nth-child(3) { margin-right: 0; }
+
+  .artists-events .event:nth-child(6) { margin-right: 0; }
+}
+
+/*media query for 1024px ends here*/
+
 /*media query ends here*/
 
 
