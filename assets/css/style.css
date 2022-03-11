@@ -401,6 +401,87 @@ img{ border-radius: 10px 10px 0 0 ; }
   footer styling starts here
 ================================*/ 
 
+.footer-section{
+  padding: 130px 0;
+  background-color: #020b13;
+}
+
+.footer-info-wrapper{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer-info{
+  flex: 1 1 auto;
+  margin-right: 56px;
+}
+
+
+.footer-title{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 1000;
+  text-transform: capitalize;
+}
+
+.footer-list{
+  padding-top: 50px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.footer-list li{
+  padding: 20px 8% 20px 0;
+  border-top: .1px solid #849aa2;
+  border-bottom: .1px solid #849aa2;
+  color: #849aa2;
+  font-size: 20px;
+}
+
+.footer-list li:first-child{
+  padding-top: 0;
+  border-top: none;
+}
+
+.footer-list li:last-child{ border-bottom: none; }
+
+
+.footer-links{
+  margin: 100px auto 0;
+  text-align: center;
+  color: #849aa2;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+.link::before{
+  font-family: "FontAwesome";
+  font-size: 35px;
+  color: #fff;
+}
+
+.link:hover{
+  transform: scale(1.2);
+  transition: transform .2s ease-in;
+}
+
+.twitter::before{ content: "\f099"; }
+
+.facebook::before{ content: "\f09a"; }
+
+.instagram::before{ content: "\f16d"; }
+
+.snapchat::before{ content: "\f2ab"; }
+
+.social-links li{ margin-right: 22px; }
+
+.social-links li:last-child{ margin-right: 0; }
+
+.copyright{ padding-top: 22px; }
+
+.copyright .bold{ color: #fff; }
+
 /*=================================
   footer styling ends here
 =================================*/ 
