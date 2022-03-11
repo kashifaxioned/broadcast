@@ -111,6 +111,63 @@ li {
   Header styling starts here
 =================================*/
 
+.header-section{
+  padding: 20px 0;
+  background-color: #101d39;
+  color: #fff;
+}
+
+.header-section .wrapper{
+  width: 97.2%;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.logo{
+  font-size: 20px;
+  font-weight: 400;
+  color: #849aa2;
+}
+
+.logo .bold{ 
+  color: #fff;
+  font-size: 23px;
+  text-transform: capitalize;
+}
+
+.logo:hover{
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in;
+}
+
+.hamburger{display: none;}
+
+.header-section a{ color: inherit; }
+
+.nav-section{
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-items li{
+  margin: 0 2%;
+  text-transform: uppercase;
+}
+
+.nav-items li:last-child{ margin-right: 1%; }
+
+.nav-items a:hover{
+  transform: scale(1.5);
+  transition: transform .5s;
+}
+
+
 /*=================================
   Header styling ends here
 =================================*/  
