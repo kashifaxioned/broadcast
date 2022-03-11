@@ -488,6 +488,20 @@ img{ border-radius: 10px 10px 0 0 ; }
 
 /*media query starts*/
 
+/*media query for 1440px starts here*/
+
+@media only screen and (max-width: 1440px) {
+
+  .artists-events .event:nth-child(3),
+  .artists-events .event:nth-child(6){margin-right: 43px;}
+
+  .trending-events .event h4{padding: 25px;}
+  
+  .trending-events .event a::before{ top: 20%; }
+}  
+
+/*media query for 1440px ends here*/
+
 /*media query ends here*/
 
 
